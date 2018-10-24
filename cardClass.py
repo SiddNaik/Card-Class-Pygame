@@ -1,3 +1,4 @@
+import pygame
 class Card:
     SUITS = ('Clubs', 'Diamonds', 'Hearts', 'Spades')
     VALS = ('narf', 'Ace', '2', '3', '4', '5', '6', '7',
