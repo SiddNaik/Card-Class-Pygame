@@ -19,3 +19,10 @@ class Card:
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
+
+            
+for i in range (6):
+    pygame.draw.polygon(win, BLACK, [[x[i]-40, y[i]+55], [x[i]+40, y[i]+55], [x[i], y[i]]])
+    pygame.draw.ellipse(win,BLACK,[x[i]-50,y[i]+45,60,60])
+    pygame.draw.ellipse(win,BLACK,[x[i]-10,y[i]+45,60,60])
+    pygame.draw.polygon(win, BLACK, [[x[i]-25, y[i]+130], [x[i]+25, y[i]+130], [x[i], y[i]+90]])
